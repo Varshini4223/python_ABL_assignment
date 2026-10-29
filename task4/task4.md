@@ -81,4 +81,4 @@ Step 4: Calculate final bill
 
 Final Bill=6000-600-270
 
-textFinal Bill=₹513o
+textFinal Bill=₹5130
