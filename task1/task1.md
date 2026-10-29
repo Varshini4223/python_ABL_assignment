@@ -43,7 +43,17 @@ Treatment charges	Cost of medical treatment	₹2,000
 Admission days	Number of days hospitalized	3
 Daily room charge	Cost per day of room occupancy	₹1,500
 
+# Expected output
+----- HOSPITAL BILL -----
+Patient Name: Rahul
+Patient ID: 101
+Patient Classification: Inpatient
+Consultation Fee: Rs. 500
+Treatment Charges: Rs. 2000
+Room Charges: Rs. 4500
+
+Total Bill: Rs. 7000
 # Calculation:
-\[\text{Room Charges}=3\times1500=4500\]
-\[\text{Total Bill}=500+2000+4500\]
-\[\boxed{\text{Total Bill}=\text{₹}7000}\]
+Room Charges=3*1500=4500
+Total Bill=500+2000+4500
+Total Bill = 7000
