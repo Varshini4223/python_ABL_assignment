@@ -46,7 +46,7 @@ Entrance examination score	Score obtained in the entrance test	78
 Minimum qualifying percentage	Required minimum percentage	60
 Minimum entrance score	Required minimum entrance score	50
 
-Expected output
+# Expected output
 ===== UNIVERSITY ADMISSION REPORT =====
 
 Student Name: Rahul
@@ -55,7 +55,4 @@ Qualifying Examination Percentage: 85%
 Entrance Examination Score: 78
 
 Admission Status: ELIGIBLE FOR ADMISSION
-
 =======================================
-# Screenshot
-C:\Users\Lenovo\Desktop\python Activity\1.jpeg
