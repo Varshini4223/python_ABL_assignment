@@ -66,9 +66,10 @@ Programming: No conflict detected.
 
 # 5. Conflict detection logic
 For two classes scheduled on the same day, a conflict exists if:
-\[
-\text{Start}_1 < \text{End}_2
-\]
+
+Start1 < END2
+
+Start2 > END1
 
 and
 \[
