@@ -17,3 +17,33 @@ Step-by-step procedure
 9. Calculate the total bill by adding all applicable charges.
 10. Display the patient's details, classification, individual charges, and total bill.
 11. Stop the program.
+
+
+# flowchart TD
+    A([Start]) --> B[/Enter patient name and ID/]
+    B --> C[/Enter patient type/]
+    C --> D[/Enter consultation fee and treatment charges/]
+    D --> E{Patient type?}
+    E -->|Outpatient| F[Room charge = 0]
+    E -->|Inpatient| G[/Enter admission days and daily room charge/]
+    G --> H[Calculate room charges]
+    H --> I[Calculate total bill]
+    F --> I
+    I --> J[/Display patient details and itemized bill/]
+    J --> K([Stop])
+
+# Input
+The program requires the following inputs from the user.
+Input	Description	Example
+Patient name	Name of the patient	Rahul
+Patient ID	Unique patient number	101
+Patient type	Outpatient or Inpatient	Inpatient
+Consultation fee	Doctor's consultation charge	₹500
+Treatment charges	Cost of medical treatment	₹2,000
+Admission days	Number of days hospitalized	3
+Daily room charge	Cost per day of room occupancy	₹1,500
+
+# Calculation:
+\[\text{Room Charges}=3\times1500=4500\]
+\[\text{Total Bill}=500+2000+4500\]
+\[\boxed{\text{Total Bill}=\text{₹}7000}\]
