@@ -78,12 +78,15 @@ Calculation
 Registration income
 
 200 * ₹200 = ₹40,000
+
 Total income
 
 ₹40,000 + ₹15,000 = ₹55,000
+
 Total expenditure
 
 ₹10,000+₹20,000+₹5,000+₹3,000+₹2,000=₹40,000
+
 Financial balance
 
 ₹55,000-₹40,000=₹15,000
